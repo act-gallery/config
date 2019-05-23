@@ -6,15 +6,12 @@ To start in dev mode:
 
 ```bash
 cd /path/to/a/app
-mvn clean compile exec:exec
+./run_dev
 ```
 
 To start in prod mode:
 
 ```bash
 cd /path/to/a/app
-mvn clean package
-cd target/dist
-unzip *.zip
-./start
+./run_prod
 ```
